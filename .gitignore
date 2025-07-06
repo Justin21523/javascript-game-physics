@@ -1,0 +1,9 @@
+# Node 產物
+node_modules/
+dist/
+
+# OS 產物
+.DS_Store
+
+# IDE 設定
+.vscode/
