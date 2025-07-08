@@ -3,8 +3,7 @@
     "version": "1.0.0",
     "description": "Step-by-step physics tutorials and JS OOP code examples for 2D games using HTML5 Canvas.",
     "scripts": {
-        "start": "live-server --port=3000 --entry-file=index.html",
-        "start:ch03": "live-server --port=3003 --entry-file=src/ch02/index.html"
+        "start":  "live-server --port=3000 --entry-file=index.html"
     },
     "devDependencies": {
       "live-server": "^1.2.1"
