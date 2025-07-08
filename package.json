@@ -1,0 +1,14 @@
+{
+    "name": "javascript-game-physics",
+    "version": "1.0.0",
+    "description": "Step-by-step physics tutorials and JS OOP code examples for 2D games using HTML5 Canvas.",
+    "scripts": {
+        "start": "live-server --port=3000 --entry-file=index.html",
+        "start:ch01": "live-server --port=3001 --entry-file=src/ch01/index.html",
+        "start:ch02": "live-server --port=3002 --entry-file=src/ch02/index.html"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  
