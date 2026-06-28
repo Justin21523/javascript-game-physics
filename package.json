@@ -6,9 +6,9 @@
     "start": "live-server --port=3000 --entry-file=index.html",
     "start:ch01": "live-server --port=3001 --entry-file=src/ch01/index.html",
     "start:ch02": "live-server --port=3002 --entry-file=src/ch02/index.html",
-    "demo:dev": "npm --prefix demo-app run dev",
-    "demo:build": "npm --prefix demo-app run build",
-    "demo:preview": "npm --prefix demo-app run preview",
+    "demo:dev": "python3 -m http.server 4173 --directory demo-app",
+    "demo:build": "node -e \"require('fs').accessSync('demo-app/index.html')\"",
+    "demo:preview": "python3 -m http.server 4173 --directory demo-app",
     "dev": "npm --prefix demo-app run dev",
     "build": "npm --prefix demo-app run build"
   },
